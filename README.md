@@ -1,2 +1,0 @@
-# Campo-Grande-Conectada
-
