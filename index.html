@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Campo Grande Conectada Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Campo Grande Conectada</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+		<ul>
+			<li><a href="#hero" class="active">Home</a></li>
+			<li><a href="#Sobre">Sobre</a></li>
+			<li><a href="#Realização">Realização</a></li>
+			<li><a href="#galeria">Galeria</a></li>
+			<li><a href="#team">Equipe</a></li>
+			<li><a href="#contact">Contato</a></li>
+		</ul>
+		<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+	  </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Potencializando o Desenvolvimento Local</h1>
+            <p>Faça parte do desenvolvimento social, cultural e econômico de Campo Grande-MS.</p>
+            <div class="d-flex">
+              <a href="#Sobre" class="btn-get-started">Conheça o Projeto</a>
+              <a href="assets/img/video/videos/Guia_de_Lazer_em_Campo_Grande.mp4" class="glightbox btn-watch-video d-flex align-items-center"data-type="video"data-gallery="video-unico"><i class="bi bi-play-circle"></i><span>Assista ao Vídeo</span></a>
+			  </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.webp" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/clients-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/clients-4.png" class="img-fluid" alt=""></div>
+	        <div class="swiper-slide"><img src="assets/img/clients/clients-5.webp" class="img-fluid" alt=""></div>
+			<div class="swiper-slide"><img src="assets/img/clients/clients-6.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Sobre Section -->
+    <section id="Sobre" class="Sobre section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre o Projeto Campo Grande Conectada</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <b>Potencializando o Desenvolvimento Local.</b>
+            </p>
+            <ul>
+            
+            </ul>
+          </div>
+
+               <div class="story-text">
+                <p style="text-align: justify;">Da <b>Escola Estadual Coração de Maria</b>, o projeto <b>Campo Grande Conectada: potencializando o desenvolvimento local</b> foi concebido e aprovado a partir da chamada Fundect nº 14/2024 – PICTEC MS – Edição 4.</p>
+                <p><strong>Motivação da Pesquisa</strong></p>
+				<p style="text-align: justify;">Campo Grande tem muitos espaços subutilizados/invisíveis. A motivação é a crença de que locais conhecidos são superutilizados, enquanto outros com potencial nas 7 regiões são esquecidos, a criação deste Site interativo se apresenta como uma ferramenta inovadora para identificar, conectar e valorizar esses espaços. Busca-se democratizar o acesso e valorizar o que é próprio do território, estimulando a construção de redes colaborativas e o sentimento de pertencimento.</p>
+				<p><strong>Objetivo da Pesquisa</strong></p>
+				<p style="text-align: justify;">O estudo tem como objetivo desenvolver um site voltado à identificação, conexão e valorização de espaços com potencial de desenvolvimento local em Campo Grande-MS, promovendo sua visibilidade, a integração comunitária e o fortalecimento das economias locais e das iniciativas culturais.</p>
+				<p><strong>A Pesquisa</strong></p>
+				<p style="text-align: justify;">A pesquisa realizou levantamento bibliográfico e mapeamento territorial, catalogando 164 espaços distribuídos nas sete regiões urbanas da cidade.</p><p>A proposta busca fortalecer as redes locais, estimular o sentimento de pertencimento comunitário e ampliar o acesso às oportunidades disponíveis no território.</p>
+			  </div>   
+                </blockquote>
+                <cite>- Equipe Campo Grande Conectada</cite>
+              </div>
+      </div>
+
+    </section><!-- /Sobre Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Por que conectar </span><strong>os espaços de Campo Grande?</strong></h3>
+              <p>
+                Campo Grande possui diversos espaços culturais, econômicos e sociais com grande potencial de desenvolvimento local. Entretanto, muitos deles ainda permanecem pouco conhecidos ou com baixa visibilidade pública.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span> Mapeamento territorial</h3>
+                <div class="faq-content">
+                  <p>Identificação e categorização de espaços presentes nas 7 regiões urbanas de Campo Grande-MS.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> Integração comunitária</h3>
+                <div class="faq-content">
+                  <p>O projeto promove a aproximação entre pessoas, espaços e iniciativas locais, fortalecendo os vínculos comunitários e incentivando a participação da população na valorização da cidade. Por meio da tecnologia e do acesso à informação, a comunidade passa a conhecer e utilizar com maior frequência os espaços culturais, esportivos e de lazer existentes em Campo Grande-MS.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> Valorização do território</h3>
+                <div class="faq-content">
+                  <p>A proposta destaca a diversidade cultural, histórica e ambiental do município, evidenciando a importância dos espaços públicos e patrimônios locais como elementos de identidade coletiva. Ao ampliar a visibilidade desses locais, o projeto contribui para o reconhecimento das potencialidades de cada região da cidade e para o fortalecimento do sentimento de pertencimento da população.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+			  <div class="faq-item">
+                <h3><span>04</span> Turismo sustentável e economia local</h3>
+                <div class="faq-content">
+                  <p>Ao incentivar a circulação de pessoas pelos diferentes bairros e pontos turísticos de Campo Grande-MS, o projeto fortalece o turismo sustentável e estimula a economia local. A iniciativa favorece pequenos empreendedores, atividades culturais, comércio regional e serviços locais, ampliando oportunidades de negócio e promovendo o desenvolvimento territorial de forma mais integrada e sustentável.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/illustration/illustration-10.webp" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Análises do Projeto</h3>
+            <p class="fst-italic">
+              A análise evidencia como a tecnologia pode contribuir para a valorização do território, o fortalecimento das redes locais, a integração comunitária e a ampliação das oportunidades de desenvolvimento social, cultural e econômico no município.</p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Incentivo à Integração Comunitária</span> <i class="val">36%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="36" aria-valuemin="0" aria-valuemax="100"></div>
+				  <p>As praças e áreas esportivas representam aproximadamente 36% dos espaços mapeados.</p>
+                </div>
+              </div><!-- End Skills Item -->
+
+
+              <div class="progress">
+                <span class="skill"><span>Fortalecimento do Turismo Sustentável</span> <i class="val">22%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+				  <p>Os pontos turísticos correspondem a cerca de 22% do total de locais identificados.</p>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Valorização Cultural e Educacional</span> <i class="val">14%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100"></div>
+				  <p>Museus e teatros representam aproximadamente 14% dos espaços catalogados.</p>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Promoção do Esporte, Lazer e Qualidade de Vida</span> <i class="val">28%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+				  <p>As áreas esportivas mapeadas correspondem a cerca de 28% do levantamento realizado.</p>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Realização Section -->
+    <section id="Realização" class="Realização section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Realização</h2>
+        <p>Coordenação, Desenvolvimento e Apoio Institucional</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-building icon"></i></div>
+              <h4><a href="" class="stretched-link">Escola Estadual Coração de Maria</a></h4>
+              <p>Instituição responsável pela realização do projeto e pelo desenvolvimento das ações de pesquisa e divulgação.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-lightbulb icon"></i></div>
+              <h4><a href="" class="stretched-link">PICTEC MS – IV Edição</a></h4>
+              <p>Programa de Iniciação Científica e Tecnológica que possibilitou o desenvolvimento do projeto.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-journal-text icon"></i></div>
+              <h4><a href="" class="stretched-link">FUNDECT</a></h4>
+              <p>Fomento à pesquisa científica, inovação e fortalecimento da produção acadêmica em Mato Grosso do Sul.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-gear icon"></i></div>
+              <h4><a href="" class="stretched-link">SEMADESC / Governo de MS</a></h4>
+              <p>Apoio institucional ao desenvolvimento científico e tecnológico do estado.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Realização Section -->
+
+    <!-- Work Process Section -->
+    <section id="work-process" class="work-process section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Processo de Trabalho</h2>
+        <p>Etapas de Desenvolvimento do Projeto</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/1.png" alt="Step 1" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">01</div>
+                <h3>Pesquisa &amp; Mapeamento</h3>
+                <p>Levantamento bibliográfico e territorial para identificar espaços de potencial desenvolvimento local nas 7 regiões urbanas de Campo Grande-MS.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Identificação dos espaços</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Mapeamento por região</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Pesquisa de registros fotográficos</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/2.png" alt="Step 2" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">02</div>
+                <h3>Organização &amp; Catalogação</h3>
+                <p>Classificação dos espaços por categoria e sistematização das informações coletadas pela equipe. Locais para:</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Turismo</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Cultura e Arte</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Esporte e Lazer</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="steps-item">
+              <div class="steps-image">
+                <img src="assets/img/steps/3.png" alt="Step 3" class="img-fluid" loading="lazy">
+              </div>
+              <div class="steps-content">
+                <div class="steps-number">03</div>
+                <h3>Divulgação &amp; Conexão Comunitária</h3>
+                <p>Construção do site e divulgação pública dos espaços para ampliar acesso e fortalecer vínculos comunitários.</p>
+                <div class="steps-features">
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Tecnologia educacional</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Participação da comunidade</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="bi bi-check-circle"></i>
+                    <span>Valorização territorial</span>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Steps Item -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Work Process Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/bg/bg-8.webp" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Chamada para Ação</h3>
+            <p><b>Qual espaço de Campo Grande-MS mais representa você? Ou... Tem algum evento para divulgar?</b></p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle"
+			href="https://forms.gle/tXpM5QnedSJkkZGv9"
+			target="_blank">
+			<b>  Divulgue Aqui!</b>
+			</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="galeria" class="portfolio section">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Galeria do Projeto</h2>
+    <p>Registros da pesquisa, visitas e ações desenvolvidas</p>
+  </div>
+
+  <div class="container">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+      <!-- Filtros -->
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">Todos</li>
+        <li data-filter=".filter-pontos">Pontos Turísticos</li>
+        <li data-filter=".filter-mutea">Museus e Teatros</li>
+        <li data-filter=".filter-praEL">Praças e Espaços de Lazer</li>
+        <li data-filter=".filter-esportes">Práticas Esportivas</li>
+      </ul>
+
+      <!-- Itens -->
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- Pontos Turísticos -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pontos">
+          <img src="assets/img/galeria/Manoel.webp" class="img-fluid" alt="Estátua Manoel de Barros">
+          <div class="portfolio-info">
+            <h4>Estátua Manoel de Barros</h4>
+            <p>Ponto Turístico</p>
+            <a href="assets/img/galeria/Manoel.webp" title="Estátua Manoel de Barros" data-gallery="portfolio-gallery-pontos" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pontos">
+          <img src="assets/img/galeria/Obelisco.jpg" class="img-fluid" alt="Obelisco de Campo Grande">
+          <div class="portfolio-info">
+            <h4>Obelisco</h4>
+            <p>Ponto Turístico</p>
+            <a href="assets/img/galeria/Obelisco.jpg" title="Obelisco" data-gallery="portfolio-gallery-pontos" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Museus e Teatros -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mutea">
+          <img src="assets/img/galeria/MuseuJose.jpg" class="img-fluid" alt="Museu José Antônio Pereira">
+          <div class="portfolio-info">
+            <h4>Museu José Antônio Pereira</h4>
+            <p>Museu</p>
+            <a href="assets/img/galeria/MuseuJose.jpg" title="Museu José Antônio Pereira" data-gallery="portfolio-gallery-mutea" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Praças e Espaços de Lazer -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-praEL">
+          <img src="assets/img/galeria/PracaAry.jpg" class="img-fluid" alt="Praça Ary Coelho">
+          <div class="portfolio-info">
+            <h4>Praça Ary Coelho</h4>
+            <p>Espaço de Lazer</p>
+            <a href="assets/img/galeria/PracaAry.jpg" title="Praça Ary Coelho" data-gallery="portfolio-gallery-praEL" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Práticas Esportivas -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-esportes">
+          <img src="assets/img/galeria/ParqueAyrton.jpeg" class="img-fluid" alt="Parque Ayrton Senna">
+          <div class="portfolio-info">
+            <h4>Parque Ayrton Senna</h4>
+            <p>Prática Esportiva</p>
+            <a href="assets/img/galeria/ParqueAyrton.jpeg" title="Parque Ayrton Senna" data-gallery="portfolio-gallery-esportes" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div> 
+	  
+        <!-- Pontos Turísticos -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pontos">
+          <img src="assets/img/galeria/Aeroporto.jpg" class="img-fluid" alt="Aeroporto Internacional de Campo Grande">
+          <div class="portfolio-info">
+            <h4>Aeroporto Internacional de Campo Grande</h4>
+            <p>Ponto Turístico</p>
+            <a href="assets/img/galeria/Aeroporto.jpg" title="Aeroporto Internacional de Campo Grande" data-gallery="portfolio-gallery-pontos" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pontos">
+          <img src="assets/img/galeria/Bioparque.jpg" class="img-fluid" alt="Bioparque Pantanal">
+          <div class="portfolio-info">
+            <h4>Bioparque Pantanal</h4>
+            <p>Ponto Turístico</p>
+            <a href="assets/img/galeria/Bioparque.jpg" title="Bioparque Pantanal" data-gallery="portfolio-gallery-pontos" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pontos">
+          <img src="assets/img/galeria/CasaArtesao.jpg" class="img-fluid" alt="Casa do Artesão">
+          <div class="portfolio-info">
+            <h4>Casa do Artesão</h4>
+            <p>Ponto Turístico</p>
+            <a href="assets/img/galeria/CasaArtesao.jpg" title="Casa do Artesão" data-gallery="portfolio-gallery-pontos" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Museus e Teatros -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mutea">
+          <img src="assets/img/galeria/museudombosco.jpg" class="img-fluid" alt="Museu José Antônio Pereira">
+          <div class="portfolio-info">
+            <h4>Museu das Culturas Dom Bosco</h4>
+            <p>Museu</p>
+            <a href="assets/img/galeria/museudombosco.jpg" title="Museu José Antônio Pereira" data-gallery="portfolio-gallery-mutea" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mutea">
+          <img src="assets/img/galeria/TeatroDomBosco.jpg" class="img-fluid" alt="Teatro Dom Bosco">
+          <div class="portfolio-info">
+            <h4>Teatro Dom Bosco</h4>
+            <p>Teatro</p>
+            <a href="assets/img/galeria/TeatroDomBosco.jpg" title="Teatro Dom Bosco" data-gallery="portfolio-gallery-mutea" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Praças e Espaços de Lazer -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-praEL">
+          <img src="assets/img/galeria/PretoVelho.jpg" class="img-fluid" alt="Praça do Preto Velho">
+          <div class="portfolio-info">
+            <h4>Praça do Preto Velho</h4>
+            <p>Espaço de Lazer</p>
+            <a href="assets/img/galeria/PretoVelho.jpg" title="Praça do Preto Velho" data-gallery="portfolio-gallery-praEL" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Práticas Esportivas -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-esportes">
+          <img src="assets/img/galeria/Belmar.jpeg" class="img-fluid" alt="Praça Belmar Fidalgo">
+          <div class="portfolio-info">
+            <h4>Praça Belmar Fidalgo</h4>
+            <p>Prática Esportiva</p>
+            <a href="assets/img/galeria/Belmar.jpeg" title="Praça Belmar Fidalgo" data-gallery="portfolio-gallery-esportes" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+          </div>
+        </div>
+
+        <!-- (continue adicionando Parque Jacques da Luz, Belmar Fidalgo, ciclovias, etc.) -->
+
+      </div><!-- End Portfolio Container -->
+
+    </div>
+  </div>
+
+</section><!-- /Galeria Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Equipe do Projeto</h2>
+        <p>Pesquisadores e responsáveis pelo desenvolvimento do Campo Grande Conectada</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-7.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ketylen Karyne S. Almeida</h4>
+                <span>Professora Orientadora</span>
+                <p style="text-align: justify;">Doutoranda em Educação (UFMS, 2023-2027). Mestre em Educação (2018). Especialista em Gestão Escolar (2023) e em Metodologia do Ensino de Artes (2022). Pesquisadora e orientadora do projeto <b>Campo Grande Conectada: Potencializando o Desenvolvimento Local</b> do Programa de Iniciação Científica e Tecnológica PICTEC IV (2025-2026) e do projeto inserido no Parlamento Juvenil do Mercosul (Seleção 2024-2026).</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-8.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Elizabeth de F. da S. Mattas</h4>
+                <span>Coorientadora e Diretora Escolar</span>
+                <p style="text-align: justify;">Mestre em Educação pela Universidade Estadual de Mato Grosso do Sul (UEMS) com formação inicial em Estudos Sociais e Pedagogia, na Universidade Federal de Mato Grosso do Sul (UFMS). Especialista em Administração, Orientação e Supervisão Escolar pela FAFICOP/PR. Psicopedagoga pela Universidade Católica Dom Bosco (UCDB/MS). Professora efetiva da Rede Estadual de Ensino de Mato Grosso do Sul desde 2006. Diretora da Escola Estadual Coração de Maria e coorientadora do projeto <b>Campo Grande Conectada: Potencializando o Desenvolvimento Local</b> do Programa de Iniciação Científica e Tecnológica PICTEC IV (2025-2026).</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-m-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Deisy Gomes Duval</h4>
+                <span>Aluna Pesquisadora Bolsista do PICTEC (2025-2026)</span>
+                <p>Estudante do Ensino Médio da Escola Estadual Coração de Maria, Campo Grande-MS.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-4.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Isadora Castilho Dos Santos</h4>
+                <span>Aluna Pesquisadora Bolsista do PICTEC (2025-2026)</span>
+                <p>Estudante do Ensino Médio da Escola Estadual Coração de Maria, Campo Grande-MS.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-3.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Davi Pires Nunes</h4>
+                <span>Aluno Pesquisador Bolsista do PICTEC (2025-2026)</span>
+                <p>Estudante do Ensino Médio da Escola Estadual Coração de Maria, Campo Grande-MS.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/person/person-f-6.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Edson Sung Yuan</h4>
+                <span>Aluno Pesquisador Bolsista do PICTEC (2025-2026)</span>
+                <p>Estudante do Ensino Médio da Escola Estadual Coração de Maria, Campo Grande-MS.</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Parceiros do Projeto</h2>
+        <p>Instituições e colaboradores que fortalecem e apoiam a iniciativa</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/person-m-9.jpeg" class="testimonial-img" alt="">
+                <h3>Vinícius Constantino Barbosa</h3>
+                <h4>Professor Coordenador de Práticas Inovadoras - PCPI, da Escola Estadual Coração de Maria</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Colaborador no desenvolvimento do Site.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/fundect_logo-01.png" class="testimonial-img" alt="">
+                <h3>Fundect</h3>
+                <h4>Fundação de Apoio ao Desenvolvimento do Ensino, Ciência e Tecnologia do Estado de Mato Grosso do Sul</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Responsável pelo incentivo à pesquisa e inovação.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/person/SEMADESC_PRINCIPAL.png" class="testimonial-img" alt="">
+                <h3>SEMADESC</h3>
+                <h4>Secretaria de Estado de Meio Ambiente, Desenvolvimento, Ciência, Tecnologia e Inovação</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Incentivo à pesquisa científica e ao desenvolvimento tecnológico.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+                     </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Perguntas Frequentes</h2>
+        <p>Encontre respostas para as principais dúvidas sobre o Projeto Campo Grande Conectada, incluindo informações sobre os espaços mapeados, participação da comunidade, divulgação de eventos e funcionamento da plataforma.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>O que é o Campo Grande Conectada?</h3>
+                <div class="faq-content">
+                  <p>Projeto de pesquisa escolar voltado ao mapeamento e valorização de espaços de desenvolvimento local.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Quem pode participar?</h3>
+                <div class="faq-content">
+                  <p>Estudantes, comunidade escolar, moradores e instituições parceiras.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Posso divulgar um evento?</h3>
+                <div class="faq-content">
+                  <p>Sim. Use o formulário oficial.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+				<i class="faq-icon bi bi-question-circle"></i>
+				<h3>O site é apenas turístico?</h3>
+				<div class="faq-content">
+				  <p>Não. Também contempla:</p>
+				  <ul>
+					<li>Cultura</li>
+					<li>Esporte</li>
+					<li>Lazer</li>
+					<li>Sustentabilidade</li>
+					<li>Ações comunitárias</li>
+				  </ul>
+				</div>
+				<i class="faq-toggle bi bi-chevron-right"></i>
+			  </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>O projeto tem apoio institucional?</h3>
+                <div class="faq-content">
+                  <p>Sim. Escola Estadual Coração de Maria + PICTEC + FUNDECT + SEMADESC.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+<!-- Subscribe Section -->
+<section id="subscribe" class="subscribe section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4 justify-content-between align-items-center">
+      
+      <div class="col-lg-6">
+        <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
+          <h2>Receba novidades do projeto</h2>
+          <p>Acompanhe ações, eventos e novas publicações do Campo Grande Conectada.</p>
+          
+          <!-- Form conectado ao Google Forms -->
+          <form id="subscribe-form"
+                action="https://docs.google.com/forms/d/e/1FAIpQLScm1SaFOT4jkncoAMOkfdIZYEjvaHfkUF2WvOAAU1hDDNfpgQ/formResponse" 
+                method="POST" target="hidden_iframe" class="cta-form">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control"
+                     id="subscribe-email"
+                     name="entry.179218000" 
+                     placeholder="Digite seu e-mail..." required>
+              <button class="btn btn-primary" type="submit">Receber novidades!</button>
+            </div>
+          </form>
+
+          <iframe name="hidden_iframe" style="display:none;" onload="showConfirmation()"></iframe>
+          
+          <!-- Mensagem de confirmação -->
+          <div id="confirmation-message" style="display:none; color:green; margin-top:10px; font-weight:bold;">
+            ✅ Seu e-mail foi coletado com sucesso!
+          </div>
+          
+          <small class="text-muted">Seu e-mail será armazenado com segurança em nossa planilha do Google.</small>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/cta/cta-1.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section><!-- /Subscribe Section -->
+
+<!-- Script -->
+<script>
+  const emailField = document.getElementById("subscribe-email");
+  const confirmation = document.getElementById("confirmation-message");
+
+  // Função chamada quando o iframe carrega (após envio ao Google Forms)
+  function showConfirmation() {
+    if (emailField.value !== "") {
+      confirmation.style.display = "block";   // mostra mensagem
+      emailField.value = "";                   // limpa campo
+    }
+  }
+
+  // Ao clicar em qualquer lugar da página, esconde a mensagem
+  document.addEventListener("click", function() {
+    confirmation.style.display = "none";
+  });
+
+  // Ao rolar a página, esconde a mensagem
+  document.addEventListener("scroll", function() {
+    confirmation.style.display = "none";
+  });
+</script>
+
+     <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contato</h2>
+    <p style="text-align: justify;">
+      Entre em contato conosco para tirar dúvidas, compartilhar informações, divulgar eventos ou contribuir com o Projeto Campo Grande Conectada. Sua participação fortalece a valorização do território e a conexão entre a comunidade e a cidade.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+
+      <!-- Coluna esquerda: Mapa -->
+      <div class="col-lg-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d660.7292702257529!2d-54.61147002221931!3d-20.47959736150819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e6022888215b%3A0x93d6381a39c05320!2zRUUgQ29yYcOnw6NvIGRlIE1hcmlh!5e0!3m2!1spt-BR!2sbr!4v1757361838752!5m2!1spt-BR!2sbr" 
+                frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Coluna direita: Informações + Formulário -->
+<div class="col-lg-6 d-flex flex-column justify-content-between">
+
+  <!-- Bloco de informações -->
+  <div class="info-wrap mb-4">
+    <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="200">
+      <i class="bi bi-geo-alt flex-shrink-0"></i>
+      <div>
+        <h3>Nossa Localização</h3>
+        <p>Rua Dr. Aníbal de Toledo, 420<br>Campo Grande, MS 79004-060</p>
+      </div>
+    </div>
+
+    <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="300">
+      <i class="bi bi-telephone flex-shrink-0"></i>
+      <div>
+        <h3>Contato</h3>
+        <p>+55 (067) 9 9326-8291</p>
+      </div>
+    </div>
+
+    <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="400">
+      <i class="bi bi-envelope flex-shrink-0"></i>
+      <div>
+        <h3>Nosso E-mail</h3>
+        <p>campograndeconectada@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Transporte Público -->
+    <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="500">
+      <i class="bi bi-bus-front flex-shrink-0"></i>
+      <div>
+        <h3>Transporte Público</h3>
+        <p><strong>Linhas de Ônibus para a escola</strong></p>
+        <ul style="margin:0; padding-left:18px;">
+          <li>058 - T. Guaicurus / Centro</li>
+          <li>059 - T. Morenão / Praça Ary Coelho</li>
+          <li>061 - T. Moreninhas / Shopping CG</li>
+          <li>062 - T. Moreninhas / Centro</li>
+          <li>085 - T. Morenão / T. Júlio de Castilho</li>
+          <li>087 - T. Guaicurus / T. General Osório</li>
+          <li>089 - T. Guaicurus / Centro</li>
+          <li>114 - Paulo Coelho Machado / Centro - Via T. Guaicurus</li>
+          <li>116 - Los Angeles / Centro - Via T. Guaicurus</li>
+          <li>422 - T. Guaicurus / Parque Industrial (somente duas vezes ao dia)</li>
+          <li>602 - Anhanduí / Campo Grande - Centro</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section><!-- /Contact Section -->
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-lg-6">
+					<h3>Divulgue Aqui!</h3>
+					<h3>Compartilhe seu evento ou espaço</h3>
+					<p style="text-align: centralized;"><b>
+                    Preencha nosso formulário oficial e ajude a dar visibilidade às iniciativas culturais, esportivas e comunitárias de Campo Grande-MS.
+                    </p></b>
+                    <a href="https://forms.gle/wwbmmSGzg2XYPH6V6" target="_blank" class="btn btn-success btn-lg mt-3">
+                    Acessar Formulário
+                    </a>
+				</div>
+			</div>
+		</div>
+	</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-Sobre">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Campo Grande Conectada</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Nossa Localização</p>
+            <p>Rua Dr. Aníbal de Toledo, 420<br>Campo Grande, MS 79004-060</p>
+            <p class="mt-3"><strong>Contato:</strong> <span>+55 (067) 9 9326-8291</span></p>
+            <p><strong>Nosso E-mail:</strong> <span>campograndeconectada@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+		  <h4>Links Úteis</h4>
+		  <ul>
+			<li><i class="bi bi-chevron-right"></i> <a href="#home">Home</a></li>
+			<li><i class="bi bi-chevron-right"></i> <a href="#galeria">Galeria</a></li>
+			<li><i class="bi bi-chevron-right"></i> <a href="#team">Equipe</a></li>
+		  	<li><i class="bi bi-chevron-right"></i> <a href="#" data-bs-toggle="modal" data-bs-target="#termosModal">Termos de serviço</a></li>
+		  </ul>
+	    </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Realização</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">EECDM</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">SED MS</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">SEMADESC</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">FUNDECT</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Siga-nos</h4>
+          <p>Acompanhe nossas redes sociais e fique por dentro das novidades do projeto.</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Campo Grande Conectada</strong> <span>Todos os direitos reservados.</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+  <!-- Termos de Uso -->
+  <div class="modal fade" id="termosModal" tabindex="-1" aria-labelledby="termosModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="termosModalLabel">Termo de Uso e Divulgação</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      
+      <div class="modal-body" style="text-align: justify;">
+        <p>
+          O Projeto Campo Grande Conectada possui caráter exclusivamente educacional, cultural e informativo, sem fins lucrativos, sendo desenvolvido sob supervisão e direcionamento da equipe da Direção, Coordenação, APM e Colegiado Escolar da Escola Estadual Coração de Maria.
+        </p>
+        <p>
+          As informações, imagens e conteúdos divulgados têm como finalidade promover a valorização cultural, turística, esportiva e comunitária do município de Campo Grande-MS, respeitando os princípios da transparência, ética e responsabilidade social.
+        </p>
+        <p>
+          Em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018), os dados eventualmente compartilhados pelos usuários serão utilizados exclusivamente para fins relacionados ao projeto, preservando a privacidade, segurança e integridade das informações fornecidas.
+        </p>
+        <p>
+          Ao utilizar a plataforma, o usuário declara estar ciente e de acordo com os objetivos institucionais e comunitários desta iniciativa.
+        </p>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
